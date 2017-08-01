@@ -15,6 +15,7 @@
 		21CF81FA1F3037D70074E053 /* iOSProjectTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF81F91F3037D70074E053 /* iOSProjectTemplateUITests.swift */; };
 		21CF82101F3038290074E053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF82081F3038290074E053 /* ViewController.swift */; };
 		21CF82121F3038640074E053 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF82111F3038640074E053 /* BaseViewController.swift */; };
+		21CF82141F3040A80074E053 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF82131F3040A80074E053 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		21CF81FB1F3037D70074E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CF82081F3038290074E053 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21CF82111F3038640074E053 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		21CF82131F3040A80074E053 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		21CF82091F3038290074E053 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				21CF82131F3040A80074E053 /* UIViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			files = (
 				21CF82101F3038290074E053 /* ViewController.swift in Sources */,
 				21CF81DA1F3037D70074E053 /* AppDelegate.swift in Sources */,
+				21CF82141F3040A80074E053 /* UIViewExtension.swift in Sources */,
 				21CF82121F3038640074E053 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
