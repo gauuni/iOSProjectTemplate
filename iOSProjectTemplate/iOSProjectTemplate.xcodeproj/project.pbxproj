@@ -19,6 +19,10 @@
 		CBFA66CC1F4D7A720097F764 /* RootAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66CB1F4D7A720097F764 /* RootAlert.swift */; };
 		CBFA66CE1F4D7AB40097F764 /* RootError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66CD1F4D7AB40097F764 /* RootError.swift */; };
 		CBFA66D01F4D7B040097F764 /* RootColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66CF1F4D7B040097F764 /* RootColor.swift */; };
+		CBFA66D41F4D7BF20097F764 /* RootStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66D31F4D7BF20097F764 /* RootStyleManager.swift */; };
+		CBFA66D61F4D7C3B0097F764 /* RootNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66D51F4D7C3B0097F764 /* RootNotification.swift */; };
+		CBFA66D81F4D7C800097F764 /* RootFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66D71F4D7C800097F764 /* RootFunctions.swift */; };
+		CBFA66DA1F4D7CF70097F764 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA66D91F4D7CF70097F764 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		CBFA66CB1F4D7A720097F764 /* RootAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootAlert.swift; sourceTree = "<group>"; };
 		CBFA66CD1F4D7AB40097F764 /* RootError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootError.swift; sourceTree = "<group>"; };
 		CBFA66CF1F4D7B040097F764 /* RootColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootColor.swift; sourceTree = "<group>"; };
+		CBFA66D31F4D7BF20097F764 /* RootStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootStyleManager.swift; sourceTree = "<group>"; };
+		CBFA66D51F4D7C3B0097F764 /* RootNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNotification.swift; sourceTree = "<group>"; };
+		CBFA66D71F4D7C800097F764 /* RootFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootFunctions.swift; sourceTree = "<group>"; };
+		CBFA66D91F4D7CF70097F764 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,7 @@
 		CBFA66BC1F4D7A5C0097F764 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CBFA66D91F4D7CF70097F764 /* UIColorExtension.swift */,
 				CBFA66BD1F4D7A5C0097F764 /* UIViewExtension.swift */,
 			);
 			path = Extension;
@@ -167,6 +176,9 @@
 				CBFA66CF1F4D7B040097F764 /* RootColor.swift */,
 				CBFA66CD1F4D7AB40097F764 /* RootError.swift */,
 				CBFA66CB1F4D7A720097F764 /* RootAlert.swift */,
+				CBFA66D31F4D7BF20097F764 /* RootStyleManager.swift */,
+				CBFA66D51F4D7C3B0097F764 /* RootNotification.swift */,
+				CBFA66D71F4D7C800097F764 /* RootFunctions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -341,9 +353,13 @@
 				CBFA66CE1F4D7AB40097F764 /* RootError.swift in Sources */,
 				CBFA66D01F4D7B040097F764 /* RootColor.swift in Sources */,
 				CBFA66C51F4D7A5C0097F764 /* ViewController.swift in Sources */,
+				CBFA66D81F4D7C800097F764 /* RootFunctions.swift in Sources */,
+				CBFA66D41F4D7BF20097F764 /* RootStyleManager.swift in Sources */,
+				CBFA66DA1F4D7CF70097F764 /* UIColorExtension.swift in Sources */,
 				21CF81DA1F3037D70074E053 /* AppDelegate.swift in Sources */,
 				CBFA66C61F4D7A5C0097F764 /* UIViewExtension.swift in Sources */,
 				CBFA66CC1F4D7A720097F764 /* RootAlert.swift in Sources */,
+				CBFA66D61F4D7C3B0097F764 /* RootNotification.swift in Sources */,
 				CBFA66C41F4D7A5C0097F764 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
