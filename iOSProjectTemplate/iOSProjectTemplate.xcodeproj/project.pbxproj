@@ -115,6 +115,7 @@
 		21CF81D81F3037D70074E053 /* iOSProjectTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				CBFA66DB1F4D7D650097F764 /* Models */,
 				CBFA66B91F4D7A5C0097F764 /* Controllers */,
 				CBFA66BC1F4D7A5C0097F764 /* Extension */,
 				CBFA66BE1F4D7A5C0097F764 /* Networking */,
@@ -214,6 +215,13 @@
 			children = (
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		CBFA66DB1F4D7D650097F764 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
